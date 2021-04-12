@@ -4,7 +4,7 @@ function GoodsList(props) {
   const { goods = []} = props;
 
   if (goods.length === 0) {
-    return <h3>Nothing here</h3>;
+    return <h3 text-primary>Nothing here</h3>;
   }
 
   return (
